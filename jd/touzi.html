@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{margin: 0; padding: 0;}
+			body{display: flex;}
+			div{width: 200px; height: 200px; border:1px solid #000; margin: 10px; display: flex; justify-content: center; align-items: center; box-sizing: border-box;}
+			span{width: 50px; height: 50px; background: #f00; border-radius: 50%; display: block;}
+			div:nth-child(2){justify-content: space-around; padding: 20px 0;}
+			div:nth-child(2) span:first-child{align-self: flex-start;}
+			div:nth-child(2) span:last-child{align-self: flex-end;}
+			div:nth-child(3){padding: 20px 0;}
+			div:nth-child(3) span:first-child{align-self: flex-start;}
+			div:nth-child(3) span:last-child{align-self: flex-end;}
+			
+			div:nth-child(4){flex-wrap: wrap;}
+			div:nth-child(4) nav{width: 200px; height: 50px; background: #ff0; display: flex; justify-content: space-around;}
+			
+			div:nth-child(5) nav{background: #ff0; height: 100%; display: flex; flex-direction: column; justify-content: space-around;}
+			
+			
+			div:nth-child(6){ flex-wrap: wrap;}
+			div:nth-child(6) nav{width: 200px; height: 50px; background: #ff0; display: flex; justify-content:space-around;}
+		</style>
+	</head>
+	<body>
+		<div>
+			<span></span>
+		</div>
+		<div>
+			<span></span>
+			<span></span>
+		</div>
+		<div>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<div>
+			<nav>
+				<span></span>
+				<span></span>
+				<span></span>
+			</nav>
+			<nav>
+				<span></span>
+				<span></span>
+				<span></span>
+			</nav>
+		</div>
+		<div>
+			<nav>
+				<span></span>
+				<span></span>
+			</nav>
+			<nav>
+				<span></span>
+			</nav>
+			<nav>
+				<span></span>
+				<span></span>
+			</nav>
+		</div>
+		<div>
+			<nav>
+				<span></span>
+				<span></span>
+			</nav>
+			<nav>
+				<span></span>
+				<span></span>
+			</nav>
+			<nav>
+				<span></span>
+				<span></span>
+			</nav>
+		</div>
+	</body>
+</html>

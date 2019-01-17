@@ -1,0 +1,44 @@
+*{margin:0;padding:0;}
+li{list-style: none;}                                          
+a{text-decoration: none;}
+.top{width:1172px;height:90px;margin:0 auto;}
+.top img{float:left;margin-top:14px;}
+.top ul{float:right;}
+.top ul li{float:left;}
+.top ul li a{line-height:90px;padding-right:46px;}
+.top ul p{display: inline-block;padding-top:34px;}
+.top ul p img{margin-top:-1px;padding-right:10px;}
+.top ul p span {color:#e24035;}
+.top ul li:hover {border-bottom: 2px solid #e23a37;padding-left:20px;}
+.top ul li:first-child{border-bottom: 2px solid #e23a37;padding-left:20px;}
+.bop{overflow: hidden;width:100%;height:541px;}
+.bop{background: url(../img/tu.jpg);}
+
+
+
+.bop section:first-child{text-align: center;color:#fbf1e5;margin-top:44px;line-height:50px;}
+.bop section:first-child h1{font-size:26px;}
+.bop section:first-child h2{font-size:16px;font-weight:normal;}
+.bop section:first-child h3{font-weight:normal;}
+.bop section:nth-child(2) {display:flex; justify-content:space-around;margin-top:60px;}
+.bop section:nth-child(2) dt{width:70px;height:80px;border:1px solid #fff;padding:20px 8px;box-sizing:border-box;
+font-size:20px;color:#fff;}
+.bop section:nth-child(2) dd{width:170px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+color:#fff;font-size:12px;margin-top:24px;}
+.bop section:nth-child(3){position: relative;}
+.bop section:nth-child(3) img:first-child{position: fixed;right:0;top:310px;}
+.bop section:nth-child(3) img:nth-child(2){position: fixed;right:0;top:362px;}
+.bop section:nth-child(3) img:nth-child(3){position: fixed;right:0;top:412px;}
+.bop section:nth-child(3) img:nth-child(4){position: fixed;right:28px;top:530px;}
+
+.cop{overflow:hidden;width:1172px;margin:0 auto;}
+.cop section:first-child{text-align: center;color:#000;margin-top:44px;line-height:50px;}
+.cop section:first-child h1{font-size:26px;}
+.cop section:first-child h2{font-size:16px;font-weight:normal;}
+.cop section:first-child h3{font-weight:normal;}
+.cop section:nth-child(2){display:flex;justify-content: space-between;}
+.cop section:nth-child(2) dl{margin-top:62px;width:134px;}
+.cop section:nth-child(2) dl dd{text-align:center;font-size:12px;}
+.cop section:nth-child(2) dl .cop1{margin-top:62px;}
+.cop section:nth-child(2) dl .cop2{margin-top:20px;}
+.cop section:nth-child(2) dl .cop3{margin-top:34px;line-height: 22px;}
